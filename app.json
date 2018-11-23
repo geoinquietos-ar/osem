@@ -61,7 +61,7 @@
     }
   },
   "scripts": {
-    "postdeploy": "bundle exec rake db:reset data:demo"
+    "postdeploy": "bundle exec rake db:schema:load data:demo"
   },
   "formation": {
     "web": {
